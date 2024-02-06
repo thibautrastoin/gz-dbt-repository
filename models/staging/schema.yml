@@ -58,3 +58,4 @@ models :
   - name: stg_raw__product
   - name: int_sales_margin 
   - name: int_orders_margin 
+  - name: int_orders_operational
