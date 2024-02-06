@@ -50,4 +50,10 @@ sources:
           - name: log_cost
             description: logistic costs
           - name: ship_cost
-            description: ship cost paid by customer
+            description: ship cost paid by customer 
+
+models :
+  - name: stg_raw__sales 
+  - name: stg_raw__ship
+  - name: stg_raw__product
+  - name: int_sales_margin 
