@@ -43,7 +43,7 @@ models:
     mart:
       +materialized: table
       finance:
-        schema : TR
+        schema : finance
     staging:
       +materialized: view
     raw:
