@@ -52,6 +52,34 @@ sources:
           - name: ship_cost
             description: ship cost paid by customer 
 
+            
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: results from facebook
+        tests:
+              - unique:
+                  column_name: "date_date || '-' || campaign_name"
+            
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: results from criteo
+        tests:
+              - unique:
+                  column_name: "date_date || '-' || campaign_name"
+            
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: results from adwords     
+        tests:
+              - unique:
+                  column_name: "date_date || '-' || campaign_name"
+
+      - name: bing
+        identifier: raw_gz_bing
+        description: results from bing
+        tests:
+              - unique:
+                  column_name: "date_date || '-' || campaign_name"
 
 models:
   - name: stg_raw__sales
@@ -61,3 +89,11 @@ models:
   - name: int_orders_margin 
   - name: int_orders_operational
   - name: finance_days
+  - name: stg_raw_criteo
+  - name: stg_raw_facebook
+  - name: stg_raw_bing
+  - name: stg_raw_adwords
+  - name: int_campaigns
+  - name: int_campaigns_day
+  - name: finance_campaigns_day
+  - name: finance_campaigns_month
