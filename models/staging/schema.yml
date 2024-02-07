@@ -91,10 +91,10 @@ models:
   - name: int_orders_margin 
   - name: int_orders_operational
   - name: finance_days
-  - name: stg_raw_criteo
-  - name: stg_raw_facebook
-  - name: stg_raw_bing
-  - name: stg_raw_adwords
+  - name: stg_raw__criteo
+  - name: stg_raw__facebook
+  - name: stg_raw__bing
+  - name: stg_raw__adwords
   - name: int_campaigns
   - name: int_campaigns_day
   - name: finance_campaigns_day
