@@ -94,3 +94,4 @@ models:
   - name: stg_raw_bing
   - name: stg_raw_adwords
   - name: int_campaigns
+  - name: int_campaigns_day
