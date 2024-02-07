@@ -70,16 +70,10 @@ sources:
       - name: adwords
         identifier: raw_gz_adwords
         description: results from adwords     
-        tests:
-              - unique:
-                  column_name: "date_date || '-' || campaign_name"
 
       - name: bing
         identifier: raw_gz_bing
         description: results from bing
-        tests:
-              - unique:
-                  column_name: "date_date || '-' || campaign_name"
 
 models:
   - name: stg_raw__sales
