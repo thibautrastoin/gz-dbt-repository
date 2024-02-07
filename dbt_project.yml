@@ -6,11 +6,6 @@ name: 'my_new_project'
 version: '1.0.0'
 config-version: 2
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 811f5f4bd0163430b1f15dba761f07c41d2f5d69
 # This setting configures which "profile" dbt uses for this project.
 profile: 'default'
 
@@ -41,7 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-<<<<<<< HEAD
+
     # Applies to all files under models/example/
   my_new_project:
     mart:
@@ -53,9 +48,3 @@ models:
       +materialized: view
     raw:
       +materialized: view
-=======
-  my_new_project:
-    # Applies to all files under models/example/
-    example:
-      +materialized: table
->>>>>>> 811f5f4bd0163430b1f15dba761f07c41d2f5d69
