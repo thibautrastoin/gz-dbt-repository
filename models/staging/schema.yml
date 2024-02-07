@@ -96,3 +96,4 @@ models:
   - name: int_campaigns
   - name: int_campaigns_day
   - name: finance_campaigns_day
+  - name: finance_campaigns_month
