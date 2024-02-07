@@ -80,3 +80,7 @@ models:
   - name: int_orders_margin 
   - name: int_orders_operational
   - name: finance_days
+  - name: stg_raw_criteo
+  - name: stg_raw_facebook
+  - name: stg_raw_bing
+  - name: stg_raw_adwords
